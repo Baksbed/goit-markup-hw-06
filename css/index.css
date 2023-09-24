@@ -1,0 +1,9 @@
+@import "./base/common.css";
+@import "./base/container.css";
+@import "./visually/visually-hidden.css";
+@import "./styles section/header.css";
+@import "./styles section/first-section.css";
+@import "./styles section/section-two.css";
+@import "./styles section/team-section.css";
+@import "./styles section/our-portfolio.css";
+@import "./styles section/footer.css";
