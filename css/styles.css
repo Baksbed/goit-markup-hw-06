@@ -806,7 +806,7 @@ a {
 
 }
 
-.modal.is-open {
+.is-open {
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
@@ -1164,8 +1164,8 @@ a {
 /*== 2x ==*/
 
 @media screen and (min-resolution: 192dpi) and (max-width: 767px),
-screen and(min-resolution: 2dppx) and (min-width: 767px),
-screen and(main-devise-pixel-ratio: 2)and (min-width: 767px) {
+screen and(min-resolution: 2dppx) and (max-width: 767px),
+screen and(main-devise-pixel-ratio: 2)and (max-width: 767px) {
     .title {
         background-image: linear-gradient(to bottom,
                 rgba(46, 47, 66, 0.7),
@@ -1189,7 +1189,7 @@ screen and(main-devise-pixel-ratio: 2)and (min-width: 1158px) {
     .title {
         background-image: linear-gradient(to bottom,
                 rgba(46, 47, 66, 0.7),
-                rgba(46, 47, 66, 0.7)), url('../images/photo/people-office.jpg');
+                rgba(46, 47, 66, 0.7)), url('../images/photo/people-office@2x.jpg');
     }
 }
 
