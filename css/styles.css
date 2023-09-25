@@ -92,7 +92,6 @@ a {
 
 .header-container {
     align-items: center;
-    padding-left: 16px;
 }
 
 .header-title {
@@ -210,7 +209,6 @@ a {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    display: flex;
     width: 100%;
     padding-top: 72px;
     padding-bottom: 72px;
@@ -309,28 +307,25 @@ a {
 }
 
 .description-title {
-    color: var(--text-color);
-    /* font-size: 20px; */
-    /* font-weight: 500; */
-    /* line-height: 1.2; */
-    letter-spacing: 0.02em;
+color: var(--NAVY-BLUE, #2E2F42);
     text-align: center;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 1.11;
-    /* 111.111% */
-    text-transform: capitalize;
 
-    /* margin-top: 8px; */
+    /* Header 2 */
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    /* 111.111% */
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
 }
 
 .description-text {
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;
     margin-top: 8px;
     font-weight: 500;
-    width: 288px;
 
 }
 
@@ -364,7 +359,7 @@ a {
     letter-spacing: 0.02em;
     /* margin-top: 8px; */
     text-align: center;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
 }
 
 
@@ -403,7 +398,7 @@ a {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
     text-align: center;
     text-transform: capitalize;
 }
@@ -421,7 +416,7 @@ a {
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: center;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
     /* margin-bottom: 8px; */
 }
 
@@ -496,7 +491,6 @@ a {
     /* flex-direction: column; */
     /* align-items: flex-start; */
     /* gap: 32px; */
-    border: 1px solid #f4f4fd;
     background: var(--secondary-color);
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
         0px 1px 1px 0px rgba(46, 47, 66, 0.16),
@@ -558,9 +552,7 @@ a {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
-   
-
-    /* margin-bottom: 8px; */
+     margin-bottom: 8px;
 }
 
 .overlay {
@@ -598,7 +590,6 @@ a {
 .portfolio-photo-my {
     position: relative;
     overflow: hidden;
-    width: 288px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -630,23 +621,23 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
     font-weight: 400;
-    width: 288px;
+    margin-top: 16px;
 }
 
 .footer-title {
-    color: var(--background-color);
-    font-family: Raleway, sans-serif;
-    text-transform: uppercase;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    display: flex;
-    margin-bottom: 16px;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: center;
-    align-items: center;
+        color: var(--background-color);
+            font-family: Raleway, sans-serif;
+            text-transform: uppercase;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 1.17;
+            letter-spacing: 0.03em;
+       display: flex;
+            margin-bottom: 16px;
+            margin-left: auto;
+      margin-right: auto;
+     justify-content: center;
+      align-items: center;
 
 }
 
@@ -657,6 +648,7 @@ a {
 .footer-text-title {
     margin-left: auto;
     margin-right: auto;
+    width: 288px;
 
 }
 
@@ -677,7 +669,7 @@ a {
     align-items: center;
     margin-left: auto;
     margin-right: auto;
-    display: inline-flex;
+
 
 }
 
@@ -719,13 +711,11 @@ a {
     margin-right: auto;
     position: relative;
     gap: 16px;
-    display: flex;
     flex-direction: column;
-
+    display: flex ;
 }
 
-.form-text-footer {
-    display: flex;
+.form-subscribe-footer {
     flex-direction: column;
     margin-left: auto;
     margin-right: auto;
@@ -785,7 +775,6 @@ a {
     border: none;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 16px;
 }
 
 
@@ -903,7 +892,6 @@ a {
     position: relative;
     display: block;
     flex-direction: column;
-    margin-bottom: 4px;
 }
 
 .form-input-feedback:focus>.icons-color-person {
@@ -1260,7 +1248,7 @@ screen and(main-devise-pixel-ratio: 2)and (min-width: 1158px) {
 
     .title-container {
         flex-direction: column;
-        display: flex;
+
     }
 
     .post-title {
@@ -1298,13 +1286,10 @@ screen and(main-devise-pixel-ratio: 2)and (min-width: 1158px) {
 
     .description-title {
         text-align: start;
+        
     }
 
     /* == photo768 == */
-
-    .photo {
-        display: flex;
-    }
 
     .our-team {
         width: 768px;
@@ -1377,9 +1362,10 @@ screen and(main-devise-pixel-ratio: 2)and (min-width: 1158px) {
     }
 
     .form-subscribe-footer {
-        display: flex;
-        flex-direction: column;
-        gap: 16px;
+        margin: 0;
+            gap: 24px;
+        flex-direction: row;
+        
     }
 
     .form-subscribe {
@@ -1388,8 +1374,10 @@ screen and(main-devise-pixel-ratio: 2)and (min-width: 1158px) {
 
     }
 
+
+
     .form-button {
-        margin-top: 40px;
+        margin-top: 16px;
     }
 
     .modal-window {
@@ -1418,7 +1406,6 @@ screen and(main-devise-pixel-ratio: 2)and (min-width: 1158px) {
     .address {
         display: flex;
         flex-wrap: nowrap;
-        margin-right: 16px;
     }
 
     .header-link-address {
@@ -1433,6 +1420,7 @@ screen and(main-devise-pixel-ratio: 2)and (min-width: 1158px) {
                 rgba(46, 47, 66, 0.7)), url('../images/photo/people-office.jpg');
         padding-top: 188px;
         padding-bottom: 188px;
+        width: 1140px;
     }
 
     .post-title {
@@ -1452,14 +1440,23 @@ screen and(main-devise-pixel-ratio: 2)and (min-width: 1158px) {
         column-gap: 24px;
         align-items: baseline;
     }
-
+.description-title {
+    color: var(--NAVY-BLUE, #2E2F42);
+    
+        /* Header 3 */
+        font-family: Roboto;
+        font-size: 20px;
+        font-style: normal;
+        line-height: 24px;
+        /* 120% */
+        letter-spacing: 0.4px;
+}
     .icons-description {
         display: flex;
     }
 
     .container-description-my {
         padding: 120px 0;
-        display: flex;
         flex-direction: column;
         gap: 72px;
         padding-top: 120px;
@@ -1520,4 +1517,12 @@ screen and(main-devise-pixel-ratio: 2)and (min-width: 1158px) {
 
     }
 
+.form {
+    display: flex;
+        position: relative;
+        gap: 24px;
+        justify-content: center;
+        flex-direction: row;
+        
+}
 }
