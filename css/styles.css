@@ -1384,7 +1384,6 @@ screen and(main-devise-pixel-ratio: 2)and (min-width: 1158px) {
         margin-left: auto;
         margin-right: auto;
         position: relative;
-        gap: 16px;
         flex-direction: row;
         display: flex;
         text-align: left;
@@ -1529,7 +1528,6 @@ screen and(main-devise-pixel-ratio: 2)and (min-width: 1158px) {
 .form {
     display: flex;
         position: relative;
-        gap: 24px;
         justify-content: center;
         flex-direction: row;
 }
