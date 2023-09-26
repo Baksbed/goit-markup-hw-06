@@ -665,11 +665,7 @@ color: var(--NAVY-BLUE, #2E2F42);
     letter-spacing: 0.02em;
     margin-bottom: 16px;
     width: 208px;
-    justify-content: center;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-
+    text-align: center;
 
 }
 
@@ -1353,7 +1349,7 @@ screen and(main-devise-pixel-ratio: 2)and (min-width: 1158px) {
         width: 100%;
         justify-content: start;
         margin-bottom: 16px;
-
+        text-align: left;
     }
 
     .form-text-footer {
